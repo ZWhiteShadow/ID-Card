@@ -1,12 +1,8 @@
 #postFullName {
 letter-spacing: -1px;
 font-weight: normal;
-
-  position: absolute;
-  left: 100px;
-  top: 150px;
-  
 font-size: 1.7em;
+text-align: center;
 font-family: 'Source Sans Pro', sans-serif;
 }
 
