@@ -1,11 +1,17 @@
+/* https://stackoverflow.com/questions/43427993/
+change-the-color-of-a-input-field-when-selected 
+Wanted to make it look just like the picture :) */
+input:focus{   
+ background-color:#FDFDCA;
+}
+
 #postFullName {
-  letter-spacing: -1px;
-  font-weight: normal;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
+  font-weight: 500;
   }
   
   img {

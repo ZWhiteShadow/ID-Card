@@ -9,15 +9,14 @@ var address  = document.getElementById("address").value;
 var age          = document.getElementById("age").value,
     phoneNumber  = document.getElementById("phone").value;    
 
-var numbers = [];
-numbers.push(age);
-numbers.push(phoneNumber);
+var numberArray = [];
+numberArray.push(age, phoneNumber);
 
-   for (i = 0; i < numbers.length; i++){
-   if (numbers[i] < 100){
+   for (i = 0; i < numberArray.length; i++){
+   if (numberArray[i] < 100){
        document.getElementById("postAge").innerHTML  = "Age: " + age;
        }
-   else if (numbers[i] > 100){
+   else if (numberArray[i] > 100){
        document.getElementById("postPhoneNumber").innerHTML = "Phone Number: " + phoneNumber;
        }
    }
